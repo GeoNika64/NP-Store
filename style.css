@@ -452,9 +452,9 @@ body {
 }
 
 @media (min-width: 578px) and (max-width: 992px) {
-    .card-title{font-size:40px}
+    .maindiv-title{font-size:40px}
     
-    .card , .poster {
+    .maindiv , .poster {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -479,8 +479,8 @@ body {
 
 
 @media (max-width: 480px){
-    .card-title{font-size:28px}
-    .card{padding:20px}
+    .maindiv-title{font-size:28px}
+    .maindiv{padding:20px}
     .container-main{flex-direction:column}
     
 }
